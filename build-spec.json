@@ -10,7 +10,7 @@
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "38f08d2d7b6246ec377949c7e498fa4615324ee0"
+      "git_hash": "5f434db0c2a010e3cad31f7aad1c56b926a45b38"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
