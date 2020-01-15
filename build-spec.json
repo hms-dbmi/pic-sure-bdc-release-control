@@ -30,7 +30,7 @@
     }
   ],
   "terraform_vars": [{
-    "ami-id" : "ami-020d82405fb39b9eb",
+    "ami_id" : "ami-020d82405fb39b9eb",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }]
 }
