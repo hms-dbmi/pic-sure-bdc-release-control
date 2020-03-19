@@ -18,7 +18,7 @@
     },{
       "project_name": "PIC-SURE-HPDS-UI Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "5cbf17764d77d2085f2f2ddc6eef261b3dcd52e5"
+      "git_hash": "8bf306f3700d9ef94aa6a9c1ac288fca88c65072"
     },{
       "project_name": "PIC-SURE-HPDS DataSTAGE UI Build",
       "project_job_git_key":"PSHDU",
