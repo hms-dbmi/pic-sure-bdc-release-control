@@ -33,7 +33,7 @@
     "ami_id" : "ami-000fb48d9b7b58b97",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
-  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_06-12-20.tar.gz" 
+  "source_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_09-21-20.tar.gz"
   ,
   "infrastructure_git_hash" : "dddf5afb6bd48ecd52a9695f23d424fe75fe6877"
 }
