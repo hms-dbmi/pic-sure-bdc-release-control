@@ -33,7 +33,7 @@
     "ami_id" : "ami-06dde3c94732d0811",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
-  "source_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_10-28-20.tar.gz"
+  "source_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_09-21-20.tar.gz"
   ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/freeze.5b.chrall.phased.pass.minDP0.remDuplicates.combined.hpds_variant_data.infoStoresFixed.authFix.modifierRemoved.tar.gz"
   ,
