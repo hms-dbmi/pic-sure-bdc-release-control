@@ -30,7 +30,7 @@
     }
   ],
   "terraform_vars": [{
-    "ami_id" : "ami-06dde3c94732d0811",
+    "ami_id" : "ami-067a278d42ae0cb8f",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
   "source_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_10-28-20.tar.gz"
