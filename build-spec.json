@@ -6,34 +6,34 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "96b768961cdc8236f120b790a3f76d40eb55abe6"
+      "git_hash": "24f2ee742b30b2e9b83f4db3f9c3f5904ee94e8e"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "094c0daaa69130f08d696826f824ebca51498336"
+      "git_hash": "9cab937eca30341a698e4c2900379be1a781db3a"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "a4071fae699b329c60a2a95428398d1bc239a6bf"
+      "git_hash": "3083424d0b7f998f8836c48f82065f3cb24da432"
     },{
       "project_name": "PIC-SURE-HPDS-UI Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "169166ab59e56786a8a96dbaac63ad44f95a5f90"
+      "git_hash": "1adc21df1f646bdaddd69037f0c0f9cd5c956c35"
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "85765ef9cbd30c36a60bd2adaf2a4d348c3ef134"
+      "git_hash": "5d3e6ac7abd55aea69c1fa60ede4670eec24ff48"
     }
   ],
   "terraform_vars": [{
     "ami_id" : "ami-0163db83ff43fa397",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
-  "source_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_02-25-21.tar.gz"
+  "source_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_04-05-21.tar.gz"
   ,
-  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_02-17-21.tar.gz"
+  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_04-05-21.tar.gz"
   ,
-  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/02-19-21/all/"
+  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/04-07-21/all/"
   ,
-  "infrastructure_git_hash" : "115682576360dd16dcd9bb8f5b2b6a651c578a07"
+  "infrastructure_git_hash" : "f7be74bad410eca133ab62e78c880e3a2509b248"
 }
