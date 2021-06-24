@@ -6,11 +6,11 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "24f2ee742b30b2e9b83f4db3f9c3f5904ee94e8e"
+      "git_hash": "daf671ec695b21547d3b2091f5c74c310eab45b1"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "9cab937eca30341a698e4c2900379be1a781db3a"
+      "git_hash": "f8dadfdb7dd8348f2254aa84503e3f2735a8ac85"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
@@ -18,22 +18,22 @@
     },{
       "project_name": "PIC-SURE-HPDS-UI Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "46b404ebe564f88570c66a2caf152dd91191eb90"
+      "git_hash": "a51d3d4e3f569ca91b87289eeb44f964ec198901"
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "d8b4f70fc4c5b5d8718e9fb8f84ab7baf218d230"
+      "git_hash": "1f2a420077d1377374519001a2eaadb904edd4c5"
     }
   ],
   "terraform_vars": [{
     "ami_id" : "ami-0aa51a3806a6c5492",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
-  "source_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_04-05-21.tar.gz"
+  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_06-17-21.tar.gz"
   ,
-  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_04-05-21.tar.gz"
+  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_05-12-21.tar.gz"
   ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/04-07-21/all/"
   ,
-  "infrastructure_git_hash" : "aec6dc539afaeb72c8178a1d83dbb7c77b5f358e"
+  "infrastructure_git_hash" : "8dc12e15f708f2193b1290f78a7700b7af1c3ffb"
 }
