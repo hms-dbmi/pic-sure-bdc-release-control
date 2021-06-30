@@ -10,7 +10,7 @@
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "f8dadfdb7dd8348f2254aa84503e3f2735a8ac85"
+      "git_hash": "2cf2926679789123984932a00d076a9def31d089"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
@@ -18,11 +18,11 @@
     },{
       "project_name": "PIC-SURE-HPDS-UI Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "46b404ebe564f88570c66a2caf152dd91191eb90"
+      "git_hash": "fd7f800daa1ba388897cee77ffb9ebdd0e16a325"
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "30af2d4fb4711ed3b6a8d7e48f5500fd6906f097"
+      "git_hash": "67c1eba0128c9740d4cf862bd26b2b53c2a2a2ba"
     }
   ],
   "terraform_vars": [{
@@ -35,5 +35,5 @@
   ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/04-07-21/all/"
   ,
-  "infrastructure_git_hash" : "8dc12e15f708f2193b1290f78a7700b7af1c3ffb"
+  "infrastructure_git_hash" : "550b22b06e5737f9126d9619b870b92038ce8b06"
 }
