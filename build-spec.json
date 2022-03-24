@@ -1,6 +1,6 @@
 {
   "database": [
-    
+
   ],
   "application": [
     {
@@ -35,5 +35,5 @@
   ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/04-07-21/all/"
   ,
-  "infrastructure_git_hash" : "2f7f06e8e2e2b5a70ed6039a3e0d6f753aee9b53"
+  "infrastructure_git_hash" : "ff236310c47bb09e4647dec42ecb267a5dfb1a0c"
 }
