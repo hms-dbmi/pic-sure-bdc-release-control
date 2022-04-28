@@ -22,11 +22,11 @@
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "077da0d243cb73b03a8b7ab5bba65807b0357215"
+      "git_hash": "4e288133873f06c45fb33c773228fcc244599e0c"
     }
   ],
   "terraform_vars": [{
-    "ami_id" : "ami-05f38d60f9a538e49",
+    "ami_id" : "ami-099ed4dfcc2b5a1f3",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
   "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_01-07-22.tar.gz"
@@ -35,5 +35,5 @@
   ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/04-07-21/all/"
   ,
-  "infrastructure_git_hash" : "9c543d2cfad9f428e81b41d03cf4a94d57302125"
+  "infrastructure_git_hash" : "2200905a77a58c6ae7da3247f3e16552cbcae06c"
 }
