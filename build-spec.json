@@ -44,5 +44,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_09-21-22.tar.gz"
   ,
-  "infrastructure_git_hash" : "ccbe03eef8741d51a033395293344ae23f6779af"
+  "infrastructure_git_hash" : "0bbce1a963b29dc6ab9adaf4448b781975863a9d"
 }
