@@ -37,13 +37,13 @@
     "ami_id" : "ami-0e5cc69b4f4534d4d",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
-  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_01-20-23.tar.gz"      
+  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_01-10-23.tar.gz"      
   ,
   "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_01-10-23.tar.gz"   
   ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/04-07-21/all/"
   ,
-  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_01-20-23.tar.gz"
+  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_01-10-23.tar.gz"
   ,
   "infrastructure_git_hash" : "326a6afec840ecbaa3e129c9dbf56bda61733710"
 }
