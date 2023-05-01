@@ -6,7 +6,7 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "35c686b75e2d8b342267f1a684ddaabdcf9b9439"
+      "git_hash": "25896ccd22931b1aeb3083b818356d220c47dbb9"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -14,11 +14,11 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "f1b9a89e93518fd04d2aa6cbaeea5cadd6c44a8c"
+      "git_hash": "7e0cd2c2fa0c513008f52e368871c653817584f5"
     },{
       "project_name": "PIC-SURE-HPDS-UI Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "bc7da633f8069861221e6d1539ebf802209dff35"
+      "git_hash": "30d1144e7e80728c4a7e947b68a76e6e3b2729b7"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
@@ -26,7 +26,7 @@
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "b988fe49e1b5c3fac62852aee9e3b823e1ee92e5"
+      "git_hash": "08ca2a61fdd195788de97753ca8a5b978f030c18"
     },{
       "project_name": "PIC-SURE Visualization Build",
       "project_job_git_key":"PSV",
@@ -45,5 +45,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_04-20-23.tar.gz"
   ,
-  "infrastructure_git_hash" : "e44229e2c351b8c9e729f52941331f59a39a1532"
+  "infrastructure_git_hash" : "15991b826b1ffefdb82edff4de6b135e133061f5"
 }
