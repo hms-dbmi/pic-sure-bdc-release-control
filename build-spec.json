@@ -6,7 +6,7 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "df5e128f140db7b05a0c8c1e9bb2a72a5df9db44"
+      "git_hash": "ecb626223b841e76f6ee1a4da299e77ffcc9673f"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -27,10 +27,6 @@
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
       "git_hash": "5a9fc52bf5123ce5aac675fcced26790fe011047"
-    },{
-      "project_name": "PIC-SURE Visualization Build",
-      "project_job_git_key":"PSV",
-      "git_hash": "853986ad2d17e82ed1c9382c6054467d285029d8"
     }
   ],
   "terraform_vars": [{
@@ -45,5 +41,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_05-19-23.tar.gz"
   ,
-  "infrastructure_git_hash" : "15991b826b1ffefdb82edff4de6b135e133061f5"
+  "infrastructure_git_hash" : "56405cb94572c23145a4ae43a1c1987726995af7"
 }
