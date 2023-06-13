@@ -6,7 +6,7 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "61a40d20ea2670959ae6f0ee5b51afe625917e6a"
+      "git_hash": "56d5fdb4e87ff9dafbb3191e655cc28f2e94d6b9"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -41,5 +41,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_05-19-23.tar.gz"
   ,
-  "infrastructure_git_hash" : "ad8a844a65680dc514e6e3cbceac374f7d2030a1"
+  "infrastructure_git_hash" : "3601d584df5c11e1587a437be29fadcb93f8e977"
 }
