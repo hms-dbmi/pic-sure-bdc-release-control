@@ -28,7 +28,7 @@
       "project_job_git_key":"BDCU",
       "git_hash": "3ff6fc1e187274bd1c966c4d8e9d0aba1d69a1da"
     }
-  ],
+  ], 
   "terraform_vars": [{
     "ami_id" : "ami-0a803d48f5ffabd47",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
