@@ -28,6 +28,10 @@
       "project_job_git_key":"BDCU",
       "git_hash": "cdfd75c32cfe1dfd7cc51af11a26abbad5b6ab3b"
     },{
+      "project_name": "OPEN-ACCESS-BDC Build",
+      "project_job_git_key":"OPENBDC",
+      "git_hash": "main"
+    },{
       "project_name": "PIC-SURE Visualization Build",
       "project_job_git_key":"PSV",
       "git_hash": "853986ad2d17e82ed1c9382c6054467d285029d8"
