@@ -6,7 +6,7 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "25896ccd22931b1aeb3083b818356d220c47dbb9"
+      "git_hash": "master"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -14,7 +14,7 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "7e0cd2c2fa0c513008f52e368871c653817584f5"
+      "git_hash": "fence-integration"
     },{
       "project_name": "PIC-SURE-HPDS-UI Build",
       "project_job_git_key":"PSHU",
@@ -22,23 +22,19 @@
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
-      "git_hash": "9a17011767965ed6b60301eeb8ece6b880734369"
+      "git_hash": "master"
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "ALS-4796"
+      "git_hash": "master"
     },{
       "project_name": "OPEN-ACCESS-BDC Build",
       "project_job_git_key":"OPENBDC",
-      "git_hash": "main"
-    },{
-      "project_name": "PIC-SURE Visualization Build",
-      "project_job_git_key":"PSV",
-      "git_hash": "853986ad2d17e82ed1c9382c6054467d285029d8"
+      "git_hash": "ALS-4796"
     }
   ],
   "terraform_vars": [{
-    "ami_id" : "ami-0c9ea50fdbda13499",
+    "ami_id" : "ami-0335f3a93b02ac15b",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
   "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_04-20-23.tar.gz"
