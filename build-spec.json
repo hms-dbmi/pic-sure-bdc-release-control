@@ -30,7 +30,7 @@
     },{
       "project_name": "OPEN-ACCESS-BDC Build",
       "project_job_git_key":"OPENBDC",
-      "git_hash": "ALS-4796"
+      "git_hash": "ALS-4814-BDC-Open-Access-Data-Dashboard"
     }
   ],
   "terraform_vars": [{
