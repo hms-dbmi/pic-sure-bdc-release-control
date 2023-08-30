@@ -18,7 +18,7 @@
     },{
       "project_name": "PIC-SURE-CORE-FRONTEND Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "2.0.1"
+      "git_hash": "v2.0.1"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
