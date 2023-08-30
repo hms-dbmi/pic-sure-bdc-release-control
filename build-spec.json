@@ -6,40 +6,40 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "8428115d773b9330007e33c53f535e45b85bea47"
+      "git_hash": "v2.1.0"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "50e7d6aaebb30385f571f790edf3ce6bd0a7b3c3"
+      "git_hash": "v2.0.1"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "3be54de5c9fe5bff84cc741480c39ddd523eabfb"
+      "git_hash": "v2.0.0-fence"
     },{
       "project_name": "PIC-SURE-CORE-FRONTEND Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "de8320773ff967c444d638cafaed4fcc2d8c99d7"
+      "git_hash": "2.0.1"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
-      "git_hash": "9a17011767965ed6b60301eeb8ece6b880734369"
+      "git_hash": "v2.0.0"
     },{
       "project_name": "PIC-SURE-BDC-FRONTEND Build",
       "project_job_git_key":"BDCU",
-      "git_hash": "137066b4be8316bbd46865b6ea26ca57f0cea41a"
+      "git_hash": "v2.1.1"
     }
   ],
   "terraform_vars": [{
     "ami_id" : "ami-0c9ea50fdbda13499",
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
-  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_07-19-23.tar.gz"      
+  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_08-28-23.tar.gz"      
   ,
-  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_07-19-23.tar.gz"   
+  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_08-28-23.tar.gz"   
   ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/04-07-21/all/"
   ,
-  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_07-19-23.tar.gz"
+  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_08-28-23.tar.gz"
   ,
-  "infrastructure_git_hash" : "ac9fae3efd363351717676b6bf045188fb9b1399"
+  "infrastructure_git_hash" : "v2.0.0"
 }
