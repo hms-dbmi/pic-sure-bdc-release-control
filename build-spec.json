@@ -6,11 +6,11 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "v2.1.0"
+      "git_hash": "v2.3.0"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "v2.0.1"
+      "git_hash": "v2.1.0"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
@@ -18,15 +18,15 @@
     },{
       "project_name": "PIC-SURE-CORE-FRONTEND Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "v2.0.1"
+      "git_hash": "v2.1.0"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
-      "git_hash": "v2.0.0"
+      "git_hash": "v2.0.1"
     },{
       "project_name": "PIC-SURE-BDC-FRONTEND Build",
       "project_job_git_key":"BDCU",
-      "git_hash": "v2.1.1"
+      "git_hash": "v2.1.2"
     }
   ],
   "terraform_vars": [{
@@ -41,5 +41,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_08-28-23.tar.gz"
   ,
-  "infrastructure_git_hash" : "v2.0.0"
+  "infrastructure_git_hash" : "v2.1.0"
 }
