@@ -1,35 +1,36 @@
-{   
+{
   "database": [
+
   ],
   "application": [
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "v2.2.0"
+      "git_hash": "open/release/0001"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "master"
+      "git_hash": "open/release/0001"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "ALS-4793"
+      "git_hash": "open/release/0001"
     },{
       "project_name": "PIC-SURE-HPDS-UI Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "ALS-4794"
+      "git_hash": "open/release/0001"
     },{
       "project_name": "PIC-SURE-SEARCH Build",  
       "project_job_git_key":"PSS",
-      "git_hash": "master"
+      "git_hash": "open/release/0001"
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "ALS-4796"
+      "git_hash": "open/release/0001"
     },{
       "project_name": "OPEN-ACCESS-BDC Build",
       "project_job_git_key":"OPENBDC",  
-      "git_hash": "ALS-4814-BDC-Open-Access-Data-Dashboard"
+      "git_hash": "open/release/0001"
     }
   ],
   "terraform_vars": [{
@@ -43,5 +44,7 @@
 ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_08-28-23.tar.gz"
 ,
-  "infrastructure_git_hash" : "open-picsure-infrastructure-test"  
+  "infrastructure_git_hash" : "open-picsure-infrastructure"  
 }  
+
+
