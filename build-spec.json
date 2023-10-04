@@ -26,11 +26,11 @@
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "release/0004"
+      "git_hash": "v2.2.1"
     },{
       "project_name": "OPEN-ACCESS-BDC Build",
       "project_job_git_key":"OPENBDC",  
-      "git_hash": "v2.2.1"
+      "git_hash": "release/0002"
     }
   ],
   "terraform_vars": [{
