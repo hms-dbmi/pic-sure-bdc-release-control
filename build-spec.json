@@ -30,7 +30,7 @@
     },{
       "project_name": "OPEN-ACCESS-BDC Build",
       "project_job_git_key":"OPENBDC",  
-      "git_hash": "release/0002"
+      "git_hash": "Test-Open-UI-Changes"
     }
   ],
   "terraform_vars": [{
