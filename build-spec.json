@@ -22,7 +22,7 @@
     },{
       "project_name": "PIC-SURE-SEARCH Build",  
       "project_job_git_key":"PSS",
-      "git_hash": "v2.0.2"
+      "git_hash": "pic-sure-search-prototype"
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
