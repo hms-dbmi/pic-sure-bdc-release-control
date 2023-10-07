@@ -44,7 +44,7 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_09-29-23.tar.gz"  
 ,
-  "infrastructure_git_hash" : "feature/fixes-for-auth-deployment"  
+  "infrastructure_git_hash" : "ALS-5134-Google-Tag-Manager-Code"  
 }  
 
 
