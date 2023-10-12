@@ -45,6 +45,4 @@
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_09-29-23.tar.gz"  
 ,
   "infrastructure_git_hash" : "open-picsure-infrastructure"  
-}  
-
-
+}
