@@ -6,45 +6,43 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "48844ccd91090bcbc0a9f05af19b6bc7ea616027"
+      "git_hash": "v2.3.0"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "v2.0.2"
+      "git_hash": "v2.1.0"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "ALS-4793"
+      "git_hash": "v2.1.0-fence"
     },{
       "project_name": "PIC-SURE-HPDS-UI Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "release/0003"
+      "git_hash": "v2.4.0"
     },{
       "project_name": "PIC-SURE-SEARCH Build",  
       "project_job_git_key":"PSS",
-      "git_hash": "release/0001"
+      "git_hash": "v2.0.2"
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "ALS-4796"
+      "git_hash": "v2.3.1"
     },{
       "project_name": "OPEN-ACCESS-BDC Build",
       "project_job_git_key":"OPENBDC",  
-      "git_hash": "ALS-4814-BDC-Open-Access-Data-Dashboard"
+      "git_hash": "release/0003"
     }
   ],
   "terraform_vars": [{
     "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
   }],
-  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_04-20-23.tar.gz"
-,
-  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_04-20-23.tar.gz"
-,
+  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_09-29-23.tar.gz"        
+  ,
+  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_09-29-23.tar.gz"       
+  ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/04-07-21/all/"
-,
-  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_04-20-23.tar.gz"
+  ,
+  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_09-29-23.tar.gz"  
 ,
   "infrastructure_git_hash" : "open-picsure-infrastructure"  
-}  
-
-
+}
