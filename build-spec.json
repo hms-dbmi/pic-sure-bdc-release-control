@@ -6,27 +6,27 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "v2.3.0"
+      "git_hash": "release/0006"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "v2.2.0"
+      "git_hash": "release/0005"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "v2.2.0-fence"
+      "git_hash": "fence-integration-release/0004"
     },{
       "project_name": "PIC-SURE-CORE-FRONTEND Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "v2.4.0"
+      "git_hash": "release/0008"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
-      "git_hash": "v2.1.0"
+      "git_hash": "release/0002"
     },{
       "project_name": "PIC-SURE-BDC-FRONTEND Build",
       "project_job_git_key":"BDCU",
-      "git_hash": "v2.4.0"
+      "git_hash": "release/0005"
     }
   ], 
   "terraform_vars": [{
