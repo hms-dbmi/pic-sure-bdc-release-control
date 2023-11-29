@@ -41,5 +41,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_11-15-23.tar.gz"
   ,
-  "infrastructure_git_hash" : "ALS-5344-Banner-Config"  
+  "infrastructure_git_hash" : "v3.2.0"  
 }
