@@ -26,7 +26,7 @@
     },{
       "project_name": "PIC-SURE-BDC-FRONTEND Build",
       "project_job_git_key":"BDCU",
-      "git_hash": "release"
+      "git_hash": "ALS-5584"
     }
   ], 
   "terraform_vars": [{
