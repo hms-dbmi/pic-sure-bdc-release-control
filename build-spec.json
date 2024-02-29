@@ -29,7 +29,7 @@
       "git_hash": "v2.8.2"
     },{
       "project_name": "OPEN-ACCESS-BDC Build",
-      "project_job_git_key":"OPENBDC",  
+      "project_job_git_key":"OVERRIDE_UI",  
       "git_hash": "v1.5.4"
     }
   ],
