@@ -6,7 +6,7 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "v2.13.0"
+      "git_hash": "ALS-6375-hotfix"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -26,7 +26,7 @@
     },{
       "project_name": "biodatacatalyst-ui",
       "project_job_git_key":"BDCU",
-      "git_hash": "v2.10.1"
+      "git_hash": "ALS-6375-hotfix"
     },{
       "project_name": "OPEN-ACCESS-BDC Build",
       "project_job_git_key":"OVERRIDE_UI",  
