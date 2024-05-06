@@ -39,7 +39,7 @@
   ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/rc2.0/"
   ,
-  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_05-04-24.tar.gz"   
+  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_05-06-24.tar.gz"   
   ,
   "infrastructure_git_hash" : "release/0003"
 }
