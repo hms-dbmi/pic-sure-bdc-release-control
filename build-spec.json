@@ -14,7 +14,7 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "v2.5.0-fence"
+      "git_hash": "fence-integration-release/0005"
     },{
       "project_name": "PIC-SURE-CORE-FRONTEND Build",
       "project_job_git_key":"PSHU",
@@ -28,11 +28,7 @@
       "project_job_git_key":"BDCU",
       "git_hash": "release"
     }
-  ], 
-  "terraform_vars": [{
-    "ami_id" : "ami-03d8711fa5461c9f3",
-    "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
-  }],
+  ],
   "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_05-23-24.tar.gz"        
   ,
   "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_05-23-24.tar.gz"          
