@@ -14,7 +14,7 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "feature/java-21-Merge-Fence"
+      "git_hash": "Java-21-Roles-On-Startup"
     },{
       "project_name": "PIC-SURE-CORE-FRONTEND Build",
       "project_job_git_key":"PSHU",
