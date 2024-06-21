@@ -14,7 +14,7 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "feature/java-21-Merge-Fence"
+      "git_hash": "release"
     },{
       "project_name": "PIC-SURE-CORE-FRONTEND Build",
       "project_job_git_key":"PSHU",
@@ -41,5 +41,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_06-21-24.tar.gz"    
   ,
-  "infrastructure_git_hash" : "ALS-6101-Move-PSAMA-to-it-own-container"
+  "infrastructure_git_hash" : "release/0003"
 }
