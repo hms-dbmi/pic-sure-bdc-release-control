@@ -10,15 +10,15 @@
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "v4.1.1-beta"
+      "git_hash": "ALS-6330"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "v2.7.0"
+      "git_hash": "ALS-6103"
     },{
       "project_name": "PIC-SURE-CORE-FRONTEND Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "v2.12.0"
+      "git_hash": "ALS-6103"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
@@ -26,13 +26,9 @@
     },{
       "project_name": "PIC-SURE-BDC-FRONTEND Build",
       "project_job_git_key":"BDCU",
-      "git_hash": "v2.13.0"
+      "git_hash": "ALS-6103"
     }
   ], 
-  "terraform_vars": [{
-    "ami_id" : "ami-03d8711fa5461c9f3",
-    "dataset_s3_object_key" : "data/biocatalyst_javabins_11_26_2019_rekeyed.tar.gz"
-  }],
   "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_07-02-24.tar.gz"         
   ,
   "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_07-02-24.tar.gz"           
@@ -41,5 +37,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_07-01-24.tar.gz"    
   ,
-  "infrastructure_git_hash" : "v4.2.2"
+  "infrastructure_git_hash" : "ALS-6103"
 }
