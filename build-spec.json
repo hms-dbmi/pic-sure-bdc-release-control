@@ -37,5 +37,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_07-24-24.tar.gz"   
   ,
-  "infrastructure_git_hash" : "ALS-6833"
+  "infrastructure_git_hash" : "Fix-PSAMA-Logs"
 }
