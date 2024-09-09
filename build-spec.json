@@ -17,12 +17,16 @@
       "git_hash": "release"
     },{
       "project_name": "PIC-SURE Dictionary Build",
-      "project_job_git_key":"PSS",
+      "project_job_git_key":"PSD",
       "git_hash": "ALS-7051"
+    },{
+      "project_name": "PIC-SURE-SEARCH Build",
+      "project_job_git_key":"PSS",
+      "git_hash": "v2.2.0"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "remove_cp"
+      "git_hash": "dev"
     }
   ],
   "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_07-24-24.tar.gz"        
@@ -33,5 +37,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_07-24-24.tar.gz"   
   ,
-  "infrastructure_git_hash" : "ALS-7051"  
+  "infrastructure_git_hash" : "ALS-7212-add-search-proto-back"  
 }
