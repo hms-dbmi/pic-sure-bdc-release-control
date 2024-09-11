@@ -14,7 +14,7 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "v3.0.2"
+      "git_hash": "v3.1.0"
     },{
       "project_name": "PIC-SURE-CORE-FRONTEND Build",
       "project_job_git_key":"PSHU",
@@ -37,5 +37,5 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_09-04-24.tar.gz"   
   ,
-  "infrastructure_git_hash" : "v4.4.0"
+  "infrastructure_git_hash" : "v4.5.0"
 }
