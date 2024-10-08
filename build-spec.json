@@ -26,7 +26,7 @@
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "v1.0.0"
+      "git_hash": "ALS-7330"
     }
   ],
   "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/ras_table_top_hpds_javabins.tar.gz"         
