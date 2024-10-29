@@ -1,12 +1,12 @@
 {
   "database": [
-    
+
   ],
   "application": [
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "New-UI-Logout-Fix"
+      "git_hash": "release"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -16,26 +16,28 @@
       "project_job_git_key":"PSAMA",
       "git_hash": "release"
     },{
-      "project_name": "PIC-SURE-CORE-FRONTEND Build",
-      "project_job_git_key":"PSHU",
-      "git_hash": "v2.14.0"
+      "project_name": "PIC-SURE Dictionary Build",
+      "project_job_git_key":"PSD",
+      "git_hash": "release"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
       "git_hash": "v2.2.0"
     },{
-      "project_name": "PIC-SURE-BDC-FRONTEND Build",
-      "project_job_git_key":"BDCU",
-      "git_hash": "v2.16.0"
+      "project_name": "PIC-SURE-FRONTEND Build",
+      "project_job_git_key":"PSF",
+      "git_hash": "release"
     }
-  ], 
-  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_09-03-24.tar.gz"
+  ],
+  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_10-28-24.tar"          
   ,
-  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_09-03-24.tar.gz"
+  "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_10-28-24.tar"         
   ,
-  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/releases/2024-09-04/"  
+  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/releases/2024-10-03/"  
   ,
-  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_09-03-24.tar.gz"  
+  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_10-02-24.tar.gz" 
   ,
-  "infrastructure_git_hash" : "release/0003"
+  "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_10-28-24T20.tar" 
+  ,
+  "infrastructure_git_hash" : "release"  
 }
