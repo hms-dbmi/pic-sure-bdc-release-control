@@ -37,7 +37,7 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_11-18-24.tar.gz"  
   ,
-  "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_11-20-24T20.tar" 
+  "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_11-20-24T21.tar" 
   ,
   "infrastructure_git_hash" : "release-new-ui"  
 }
