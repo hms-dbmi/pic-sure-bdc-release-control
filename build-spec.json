@@ -39,5 +39,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_01-11-25T00.tar" 
   ,
-  "infrastructure_git_hash" : "Remove-Legacy-Search"  
+  "infrastructure_git_hash" : "release-new-ui"  
 }
