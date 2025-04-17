@@ -162,11 +162,13 @@
       "links": [
         {
           "title": "Go to Seven Bridges",
-          "url": "https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/biodatacatalyst/data-export-from-the-pic-sure-ui"
+          "url": "https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/biodatacatalyst/data-export-from-the-pic-sure-ui",
+          "newTab": true
         },
         {
           "title": "Go to Terra",
-          "url": "https://terra.biodatacatalyst.nhlbi.nih.gov/"
+          "url": "https://terra.biodatacatalyst.nhlbi.nih.gov/",
+          "newTab": true
         }
       ]
     },
