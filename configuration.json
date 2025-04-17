@@ -1,0 +1,284 @@
+{
+  "applicationName": "BioData Catalyst Powered by PIC-SURE",
+  "sitemap": [
+    {
+      "category": "Configuration",
+      "privilege": "SUPER_ADMIN",
+      "links": [
+        {
+          "title": "Authorization",
+          "url": "/admin/authorization"
+        },
+        {
+          "title": "Authentication",
+          "url": "/admin/authentication"
+        }
+      ]
+    },
+    {
+      "category": "Administration",
+      "privilege": "ADMIN",
+      "links": [
+        {
+          "title": "Manage Users",
+          "url": "/admin/users"
+        }
+      ]
+    },
+    {
+      "category": "Use PIC-SURE",
+      "privilege": "AUTHORIZED_ACCESS",
+      "links": [
+        {
+          "title": "Explore",
+          "url": "/explorer"
+        },
+        {
+          "title": "Analyze",
+          "url": "/analyze"
+        },
+        {
+          "title": "Manage Datasets",
+          "url": "/dataset"
+        }
+      ]
+    },
+    {
+      "category": "Help",
+      "links": [
+        {
+          "title": "User Guide",
+          "url": "https://pic-sure.gitbook.io/pic-sure",
+          "newTab": true
+        },
+        {
+          "title": "Videos",
+          "url": "https://www.youtube.com/@pic-sure446/featured",
+          "newTab": true
+        },
+        {
+          "title": "About",
+          "url": "http://pic-sure.org/",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "showSitemap": true,
+    "showTerms": false,
+    "excludeSitemapOn": ["/explorer", "/discover"],
+    "links": [
+      {
+        "title": "Privacy Policy",
+        "url": "https://biodatacatalyst.nhlbi.nih.gov/privacy",
+        "newTab": true
+      },
+      {
+        "title": "Data Sharing Policy",
+        "url": "https://osp.od.nih.gov/scientific-sharing/policies/",
+        "newTab": true
+      },
+      {
+        "title": "Freedom of Information Act (FOIA)",
+        "url": "https://www.nhlbi.nih.gov/about/foia-fee-for-service-office",
+        "newTab": true
+      },
+      {
+        "title": "Accessibility",
+        "url": "https://biodatacatalyst.nhlbi.nih.gov/accessibility",
+        "newTab": true
+      },
+      {
+        "title": "U.S. Department of Health & Human Services",
+        "url": "https://www.hhs.gov/",
+        "newTab": true
+      },
+      {
+        "title": "National Institutes of Health",
+        "url": "https://www.nih.gov/",
+        "newTab": true
+      },
+      {
+        "title": "National Heart, Lung, and Blood Institute",
+        "url": "https://www.nhlbi.nih.gov/",
+        "newTab": true
+      },
+      {
+        "title": "USA.gov",
+        "url": "https://www.usa.gov/",
+        "newTab": true
+      },
+      {
+        "title": "HHS Vulnerability Disclosure",
+        "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+        "newTab": true
+      }
+    ]
+  },
+  "analysisPage": {
+    "cards": [
+      {
+        "header": "Example Analyses with PIC-SURE page",
+        "body": "Detailed step-by-step example code that demonstrates how to use PIC-SURE for analysis.",
+        "link": "/analyze/example"
+      }
+    ],
+    "instructions": {
+      "connection": "To connect to the PIC-SURE Application Programming Interface (API), you will need your personal access token. Copy your token and save as a text file called \"token.txt\" in the working directory of your chosen analysis workspace, such as <a href=\"https://platform.sb.biodatacatalyst.nhlbi.nih.gov/home\" target=\"_blank\" title=\"BioData Catalyst Powered by Seven Bridges\" class=\"anchor font-bold\">BioData Catalyst Powered by Seven Bridges</a> or <a href=\"https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces\" target=\"_blank\" title=\"BioData Catalyst Powered by Terra\" class=\"anchor font-bold\">BioData Catalyst Powered by Terra</a>.",
+      "execution": "To start your analysis, copy and execute the following code in an analysis environment, such as BioData Catalyst Powered by Seven Bridges or BioData Catalyst Powered by Terra, to connect to the PIC-SURE API. Note that you will need your personal access token to complete the connection."
+    }
+  },
+  "explorePage": {
+    "columns": [
+      {
+        "dataElement": "studyAcronym",
+        "label": "Study"
+      },
+      {
+        "dataElement": "display",
+        "label": "Variable Name"
+      },
+      {
+        "dataElement": "description",
+        "label": "Variable Description"
+      }
+    ],
+    "tourSearchIntro": "PIC-SURE Search allows you to search for variable level data.",
+    "totalPatientsText": "Filtered Participants",
+    "queryErrorText": "There was an error with your query. If this persists, please contact you PIC-SURE admin.",
+    "filterErrorText": "There was an error when adding the filter to the query. Please remove your most recent filter and try again. If this error persists, please contact us by filling out the form at <a class=\"anchor\" href=\"https://hms-dbmi.atlassian.net/servicedesk/customer/portal/5\" target=\"_blank\" class=\"underline\">Avillach Lab Software Requests</a>. We will respond to your request as soon as we can.",
+    "confirmDownloadTitle": "Are you sure you want to download data?",
+    "confirmDownloadMessage": "You are transferring data through the BioData Catalyst security boundary, which may or may not be supported by your Data Use Agreement(s), Limitation(s), or your Institutional Review Board policies and guidelines. As a BioData Catalyst user, you are solely responsible for adhering to the terms of these policies.",
+    "analysisExportText": "To export data and start your analysis, copy and paste the following code in an analysis workspace, such as BioData Catalyst Powered by Seven Bridges or BioData Catalyst Powered by Terra, to connect to PIC-SURE and save the data frame or download the file. Note that you will need your personal access token to complete the connection to PIC-SURE with code.",
+    "codeBlocks": {
+      "PythonExport": "# Requires python 3.7 or later\nimport sys\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# BDC Powered by Terra users uncomment the following line to specify package install location\n# sys.path.insert(0, r\"/home/jupyter/.local/lib/python3.7/site-packages\")\n!{sys.executable} -m pip install --upgrade --force-reinstall git+https://github.com/hms-dbmi/pic-sure-python-client.git\n!{sys.executable} -m pip install --upgrade --force-reinstall git+https://github.com/hms-dbmi/pic-sure-python-adapter-hpds.git\n!{sys.executable} -m pip install --upgrade --force-reinstall git+https://github.com/hms-dbmi/pic-sure-biodatacatalyst-python-adapter-hpds.git\n\nimport PicSureClient\nimport PicSureBdcAdapter\n\ntoken_file = \"token.txt\"\nwith open(token_file, \"r\") as f:\n my_token = f.read()\n\nbdc = PicSureBdcAdapter.Adapter(\"https://picsure.biodatacatalyst.nhlbi.nih.gov/picsure\", my_token)\n\nresource = bdc.useResource('02e23f52-f354-4e8b-992c-d37c8b9ba140')\n\nqueryID = \"{{queryId}}\" \n\nresults = resource.retrieveQueryResults(queryID)\n\nfrom io import StringIO\ndf_UI = pd.read_csv(StringIO(results), low_memory=False)\ndf_UI.head() # View top 5 rows of dataframe",
+      "RExport": "# Requires R 3.4 or later\n### Uncomment this code if you are not using the PIC-SURE environment in *BDC-Seven Bridges*, or if you do not have all the necessary dependencies installed.\n#install.packages(\"devtools\")\n\nSys.setenv(TAR = \"/bin/tar\")\noptions(unzip = \"internal\")\ndevtools::install_github(\"hms-dbmi/pic-sure-r-adapter-hpds\", ref=\"main\", force=T, quiet=FALSE)\nlibrary(dplyr)\n\ntoken_file <- \"token.txt\"\ntoken <- scan(token_file, what = \"character\")\n\nsession <- picsure::bdc.initializeSession(\"https://picsure.biodatacatalyst.nhlbi.nih.gov/picsure\", token)\nsession <- picsure::bdc.setResource(session = session, resourceName = \"AUTH\")\n\nqueryID <- \"{{queryId}}\"\nresults <- picsure::getResultByQueryUUID(session, queryID)\nhead(results) # View top 5 rows of dataframe",
+      "PythonAPI": "# Requires python 3.6 or later\nimport sys\nimport pandas as pd\nimport matplotlib.pyplot as plt\n# BDC Powered by Terra users uncomment the following line to specify package install location\n# sys.path.insert(0, r\"/home/jupyter/.local/lib/python3.7/site-packages\")\n!{sys.executable} -m pip install --upgrade --force-reinstall git+https://github.com/hms-dbmi/pic-sure-python-client.git\n!{sys.executable} -m pip install --upgrade --force-reinstall git+https://github.com/hms-dbmi/pic-sure-python-adapter-hpds.git\n!{sys.executable} -m pip install --upgrade --force-reinstall git+https://github.com/hms-dbmi/pic-sure-biodatacatalyst-python-adapter-hpds.git\nimport PicSureClient\nimport PicSureBdcAdapter\n# Set up connection to PIC-SURE API\nPICSURE_network_URL = \"https://picsure.biodatacatalyst.nhlbi.nih.gov/picsure\"\ntoken_file = \"token.txt\"\n\nwith open(token_file, \"r\") as f:\n my_token = f.read()\n\nbdc = PicSureBdcAdapter.Adapter(PICSURE_network_URL, my_token)",
+      "RAPI": "# Requires R 3.4 or later\n### Uncomment this code if you are not using the PIC-SURE environment in *BDC-Seven Bridges*, or if you do not have all the necessary dependencies installed.\n#install.packages(\"devtools\")\nSys.setenv(TAR = \"/bin/tar\")\noptions(unzip = \"internal\")\ndevtools::install_github(\"hms-dbmi/pic-sure-r-adapter-hpds\", ref=\"main\", force=T, quiet=FALSE)\nlibrary(dplyr)\nPICSURE_network_URL = \"https://picsure.biodatacatalyst.nhlbi.nih.gov/picsure\"\ntoken_file <- \"token.txt\"\ntoken <- scan(token_file, what = \"character\")\nsession <- picsure::bdc.initializeSession(PICSURE_network_URL, token)\nsession <- picsure::bdc.setResource(session = session, resourceName = \"AUTH\")"
+    },
+    "goTo": {
+      "instructions": "Copy your personal access token and save as a text file called \"token.txt\" in the same working directory to execute the code above.",
+      "links": [
+        {
+          "title": "Go to Seven Bridges",
+          "url": "https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/biodatacatalyst/data-export-from-the-pic-sure-ui"
+        },
+        {
+          "title": "Go to Terra",
+          "url": "https://terra.biodatacatalyst.nhlbi.nih.gov/"
+        }
+      ]
+    },
+    "pfbExportUrls": [
+      {
+        "title": "Terra",
+        "url": "https://terra.biodatacatalyst.nhlbi.nih.gov/#import-data?format=pfb&url="
+      }
+    ]
+  },
+  "landing": {
+    "searchPlaceholder": "Search terms or variables of interest…",
+    "explanation": "All data available for public browsing.",
+    "authExplanation": "Participant-level data you are authorized to access for exploration and analysis.",
+    "actions": [
+      {
+        "title": "Browse Data",
+        "description": "Browse all studies by searching for terms, applying filters, and retrieving counts to conduct feasibility assessments",
+        "icon": "fa-solid fa-magnifying-glass",
+        "url": "/discover",
+        "btnText": "Browse All Data",
+        "isOpen": true,
+        "showIfLoggedIn": true
+      },
+      {
+        "title": "Explore Data",
+        "description": "Explore data, apply filters, and build cohorts on studies that you are authorized to access",
+        "icon": "fa-regular fa-compass",
+        "url": "/explorer",
+        "btnText": "Explore Authorized Data",
+        "isOpen": false,
+        "showIfLoggedIn": true
+      },
+      {
+        "title": "Prepare for Analysis",
+        "description": "Use the PIC-SURE API to prepare data for analysis",
+        "icon": "fa-solid fa-chart-line",
+        "url": "/analyze",
+        "btnText": "Prepare for Analysis",
+        "isOpen": false,
+        "showIfLoggedIn": true
+      },
+      {
+        "title": "Login",
+        "description": "Log in to explore participant-level data, save datasets, and kickstart your research analysis on the UI or API",
+        "icon": "fa-solid fa-user",
+        "url": "/login",
+        "btnText": "Go to Login",
+        "isOpen": true,
+        "showIfLoggedIn": false
+      }
+    ],
+    "stats": [
+      {
+        "key": "dict:concepts",
+        "label": "Variables"
+      },
+      {
+        "key": "query:blank",
+        "label": "Participants"
+      },
+      {
+        "key": "dict:facets:dataset_id",
+        "label": "Data Sources"
+      }
+    ],
+    "statFields": {}
+  },
+  "login": {
+    "description": "Where searching for, filtering on, and analyzing data is made simple.",
+    "showSiteName": false,
+    "openPicsureLink": "/",
+    "openPicsureLinkText": "Explore without Login",
+    "contactLink": "https://hms-dbmi.atlassian.net/servicedesk/customer/portal/5"
+  },
+  "help": {
+    "links": [
+      {
+        "title": "User Guide",
+        "description": "Complete user manual for seamless navigation and utilization.",
+        "icon": "fa-solid fa-book fa-4x",
+        "url": "https://pic-sure.gitbook.io/nhlbi-biodata-catalyst-powered-by-pic-sure"
+      },
+      {
+        "title": "Video Library",
+        "description": "Example 'how-to' video demonstrations.",
+        "icon": "fa-solid fa-circle-play fa-4x",
+        "url": "https://www.youtube.com/playlist?list=PLJ6YccH8TEufZ5L-ctxzFF7vuZRLVacKw"
+      },
+      {
+        "title": "Request Help",
+        "description": "Need help? Submit a service desk ticket, we are here to help!",
+        "icon": "fa-solid fa-handshake fa-4x",
+        "url": "https://biodatacatalyst.nhlbi.nih.gov/help-and-support/contact-us/"
+      },
+      {
+        "title": "PIC-SURE",
+        "description": "Check out the PIC-SURE website for information.",
+        "icon": "fa-solid fa-circle-info fa-4x",
+        "url": "https://avillach-lab.hms.harvard.edu/pic-sure"
+      }
+    ],
+    "popups": {
+      "genomicFilter": {
+        "frequency": "The variant allele frequency in gnomAD combined population as discrete text categories. Possible values: Novel (variant not in gnomAD database), Rare (variant frequency less than 1%), Common (variant frequency greater than or equal to 1%).",
+        "consequence": "A standardized term from the Sequence Ontology (http://www.sequenceontology.org) to describe the calculated consequence of a variant. The severity for the calculated consequence of a variant on a gene has possible values HIGH (frameshift, splice disrupting, or truncating variants), MEDIUM (non-frameshift insertions or deletions, variants altering protein sequencing without affecting its length) or LOW (other coding variants including synonymous variants)."
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "content": "This is the privacy policy for the PIC-SURE application.",
+    "url": "https://biodatacatalyst.nhlbi.nih.gov/privacy"
+  }
+}
