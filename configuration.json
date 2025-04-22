@@ -213,7 +213,7 @@
       },
       {
         "title": "Login",
-        "description": "Log in to explore participant-level data, save datasets, and kickstart your research analysis on the UI or API",
+        "description": "Log in to explore participant-level data, save datasets, and kickstart your research analysis",
         "icon": "fa-solid fa-user",
         "url": "/login",
         "btnText": "Go to Login",
