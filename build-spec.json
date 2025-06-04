@@ -6,7 +6,7 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "ALS-9189"
+      "git_hash": "release"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -14,11 +14,11 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "Debug-Fence-Authz"
+      "git_hash": "release"
     },{
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
-      "git_hash": "Debugging-BDC"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
