@@ -14,7 +14,7 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "3.6.5"
+      "git_hash": "release"
     },{
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
