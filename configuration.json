@@ -35,7 +35,8 @@
         },
         {
           "title": "Analyze",
-          "url": "/analyze"
+          "url": "/analyze",
+          "feature": "analyzeApi" 
         },
         {
           "title": "Manage Datasets",
@@ -58,7 +59,7 @@
         },
         {
           "title": "About",
-          "url": "http://pic-sure.org/",
+          "url": "https://avillach-lab.hms.harvard.edu/pic-sure/",
           "newTab": true
         }
       ]
@@ -117,16 +118,18 @@
     ]
   },
   "analysisPage": {
-    "cards": [
-      {
-        "header": "Example Analyses with PIC-SURE page",
-        "body": "Detailed step-by-step example code that demonstrates how to use PIC-SURE for analysis.",
-        "link": "/analyze/example"
+    "api": {
+      "cards": [
+        {
+          "header": "Example Analyses with PIC-SURE page",
+          "body": "Detailed step-by-step example code that demonstrates how to use PIC-SURE for analysis.",
+          "link": "/analyze/example"
+        }
+      ],
+      "instructions": {
+        "connection": "To connect to the PIC-SURE Application Programming Interface (API), you will need your personal access token. Copy your token and save as a text file called \"token.txt\" in the working directory of your chosen analysis workspace, such as <a href=\"https://platform.sb.biodatacatalyst.nhlbi.nih.gov/home\" target=\"_blank\" title=\"BioData Catalyst Powered by Seven Bridges\" class=\"anchor font-bold\">BioData Catalyst Powered by Seven Bridges</a> or <a href=\"https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces\" target=\"_blank\" title=\"BioData Catalyst Powered by Terra\" class=\"anchor font-bold\">BioData Catalyst Powered by Terra</a>.",
+        "execution": "To start your analysis, copy and execute the following code in an analysis environment, such as BioData Catalyst Powered by Seven Bridges or BioData Catalyst Powered by Terra, to connect to the PIC-SURE API. Note that you will need your personal access token to complete the connection."
       }
-    ],
-    "instructions": {
-      "connection": "To connect to the PIC-SURE Application Programming Interface (API), you will need your personal access token. Copy your token and save as a text file called \"token.txt\" in the working directory of your chosen analysis workspace, such as <a href=\"https://platform.sb.biodatacatalyst.nhlbi.nih.gov/home\" target=\"_blank\" title=\"BioData Catalyst Powered by Seven Bridges\" class=\"anchor font-bold\">BioData Catalyst Powered by Seven Bridges</a> or <a href=\"https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces\" target=\"_blank\" title=\"BioData Catalyst Powered by Terra\" class=\"anchor font-bold\">BioData Catalyst Powered by Terra</a>.",
-      "execution": "To start your analysis, copy and execute the following code in an analysis environment, such as BioData Catalyst Powered by Seven Bridges or BioData Catalyst Powered by Terra, to connect to the PIC-SURE API. Note that you will need your personal access token to complete the connection."
     }
   },
   "explorePage": {
@@ -176,6 +179,10 @@
       {
         "title": "Terra",
         "url": "https://terra.biodatacatalyst.nhlbi.nih.gov/#import-data?format=pfb&url="
+      },
+      {
+        "title": "Seven Bridges",
+        "url": " https://platform.sb.biodatacatalyst.nhlbi.nih.gov/import/pfb?source=bdc&URL="
       }
     ]
   },
@@ -206,7 +213,7 @@
         "title": "Prepare for Analysis",
         "description": "Use the PIC-SURE API to prepare data for analysis",
         "icon": "fa-solid fa-chart-line",
-        "url": "/analyze",
+        "url": "/analyze/api",
         "btnText": "Prepare for Analysis",
         "isOpen": false,
         "showIfLoggedIn": true
@@ -282,5 +289,8 @@
     "title": "Privacy Policy",
     "content": "This is the privacy policy for the PIC-SURE application.",
     "url": "https://biodatacatalyst.nhlbi.nih.gov/privacy"
+  },
+  "genomic": {
+    "defaultGenomeBuild": "GRCh38"
   }
 }
