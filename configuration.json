@@ -239,7 +239,17 @@
         "label": "Data Sources"
       }
     ],
-    "statFields": {}
+    "statFields": {},
+    "results": {
+    "totalStatKey": "query:patientCount",
+    "stats": [
+        {
+          "key": "query:patientCount",
+          "label": "Filtered Participants"
+        }
+      ],
+      "cohortDescription": "Distribution of total patient counts across networked institutions."
+    },
   },
   "login": {
     "description": "Where searching for, filtering on, and analyzing data is made simple.",
