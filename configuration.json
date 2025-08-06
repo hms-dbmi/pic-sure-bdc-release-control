@@ -246,7 +246,7 @@
         {
           "header": "Example Analyses with PIC-SURE page",
           "body": "Detailed step-by-step example code that demonstrates how to use PIC-SURE for analysis.",
-          "link": "/analyze/example"
+          "link": "/analyze/api/example"
         }
       ],
       "instructions": {
