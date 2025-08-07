@@ -18,7 +18,7 @@
     },{
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
-      "git_hash": "main"
+      "git_hash": "v1.4.8"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
