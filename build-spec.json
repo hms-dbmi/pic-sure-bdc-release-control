@@ -1,7 +1,7 @@
 {
   "database": [],
   "application": [
-    {
+     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
       "git_hash": "v2.20.4"
@@ -16,7 +16,7 @@
     },{
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
-      "git_hash": "v1.4.5"
+      "git_hash": "v1.4.8"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
