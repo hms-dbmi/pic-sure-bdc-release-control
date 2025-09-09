@@ -37,7 +37,7 @@
   ,
   "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_javabin_12-16-24.tar.gz"
   ,
-  "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_09-09-25T03.tar"
+  "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_09-09-25T07.tar"
   ,
   "infrastructure_git_hash" : "Incremental-Deployment"  
 }
