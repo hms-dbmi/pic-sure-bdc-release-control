@@ -6,7 +6,7 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "v2.20.4"
+      "git_hash": "ALS-9867"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -39,5 +39,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_09-19-25T12.tar"
   ,
-  "infrastructure_git_hash" : "Incremental-Deployment"  
+  "infrastructure_git_hash" : "ALS-9867"  
 }
