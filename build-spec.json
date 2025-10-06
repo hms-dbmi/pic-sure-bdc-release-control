@@ -39,5 +39,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_10-03-25T15.tar"
   ,
-  "infrastructure_git_hash" : "main"  
+  "infrastructure_git_hash" : "ALS-9867"  
 }
