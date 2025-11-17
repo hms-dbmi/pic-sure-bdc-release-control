@@ -29,7 +29,7 @@
       "git_hash": "v2.2.2-bdc"
     }
   ],
-  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_11-14-25T22.tarr" 
+  "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_11-14-25T22.tar" 
   , 
   "source_destigmatized_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_11-14-25T22.tar"
   ,
