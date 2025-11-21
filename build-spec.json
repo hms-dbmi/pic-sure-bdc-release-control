@@ -18,7 +18,7 @@
     },{
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
-      "git_hash": "v1.4.11"
+      "git_hash": "v1.5.0"
     },{
       "project_name": "PIC-SURE-SEARCH Build",
       "project_job_git_key":"PSS",
@@ -39,5 +39,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_11-19-25T23.tar"   
   ,
-  "infrastructure_git_hash" : "v6.0.0"  
+  "infrastructure_git_hash" : "v6.2.0"  
 }
