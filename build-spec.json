@@ -20,10 +20,6 @@
       "project_job_git_key":"PSD",
       "git_hash": "v1.5.1"
     },{
-      "project_name": "PIC-SURE-SEARCH Build",
-      "project_job_git_key":"PSS",
-      "git_hash": "v2.2.0"
-    },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
       "git_hash": "v2.2.5-bdc-beta"
