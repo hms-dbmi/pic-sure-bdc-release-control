@@ -6,11 +6,11 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "v2.22.0"
+      "git_hash": "v2.24.0"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "v4.8.1"
+      "git_hash": "v4.10.0"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
@@ -19,10 +19,6 @@
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
       "git_hash": "v1.5.1"
-    },{
-      "project_name": "PIC-SURE-SEARCH Build",
-      "project_job_git_key":"PSS",
-      "git_hash": "v2.2.0"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
