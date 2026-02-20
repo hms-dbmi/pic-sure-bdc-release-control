@@ -22,8 +22,12 @@
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "v2.2.6-hotfix-2"
-    }
+      "git_hash": "logging"
+    },{
+      "project_name": "PIC-SURE Logging",
+      "project_job_git_key":"PSL",
+      "git_hash": "main"
+    },
   ],
   "source_dataset_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/biodatacatalyst_javabins_data_analyzer_02-13-26T16.tar"        
   , 
@@ -35,5 +39,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_02-13-26T16.tar"
   ,
-  "infrastructure_git_hash" : "main"
+  "infrastructure_git_hash" : "logging"
 }
