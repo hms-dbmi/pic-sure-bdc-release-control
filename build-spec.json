@@ -22,7 +22,7 @@
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "logging"
+      "git_hash": "v2.2.6-hotfix-2"
     },{
       "project_name": "PIC-SURE Logging",
       "project_job_git_key":"PSL",
