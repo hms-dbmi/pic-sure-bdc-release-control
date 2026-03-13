@@ -14,7 +14,7 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "ALS-11050"
+      "git_hash": "logging"
     },{
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
@@ -22,7 +22,7 @@
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "v2.2.6-hotfix-2"
+      "git_hash": "logging"
     },{
       "project_name": "PIC-SURE Logging",
       "project_job_git_key":"PSL",
@@ -39,5 +39,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_03-12-26T21.tar"
   ,
-  "infrastructure_git_hash" : "ec35ec24498c4dbe489d45d9a722a429afc3160a"
+  "infrastructure_git_hash" : "logging"
 }
