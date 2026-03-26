@@ -22,7 +22,7 @@
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "bdc_hotfix_with_dockerfile_changes"
+      "git_hash": "v2.3.0-bdc-beta"
     }
   ],
   "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_03-20-26T12.tar"         
