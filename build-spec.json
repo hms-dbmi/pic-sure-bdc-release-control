@@ -6,23 +6,27 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "v2.25.0"
+      "git_hash": "v2.26.0"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "v4.11.0"
+      "git_hash": "v4.12.0"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "v4.1.0"
+      "git_hash": "v4.2.0"
     },{
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
-      "git_hash": "v1.6.0"
+      "git_hash": "v1.7.0"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "v2.3.1-bdc-beta"
+      "git_hash": "v2.4.0-bdc-beta"
+    },{
+      "project_name": "PIC-SURE Logging",
+      "project_job_git_key":"PSL",
+      "git_hash": "v1.0.0"
     }
   ],
   "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_03-20-26T12.tar"         
@@ -35,5 +39,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_03-21-26T16.tar"
   ,
-  "infrastructure_git_hash" : "v6.3.1"
+  "infrastructure_git_hash" : "v6.4.0"
 }
