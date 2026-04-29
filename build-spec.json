@@ -29,15 +29,15 @@
       "git_hash": "main"
     }
   ],
-  "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_04-10-26T17.tar"         
+  "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_04-29-26T14.tar"
   , 
-  "source_destigmatized_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_04-10-26T17.tar"        
+  "source_destigmatized_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_04-29-26T14.tar"
   ,
-  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/releases/2026-04-02/"
+  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/releases/2026-04-28/"
   ,
-  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_02-13-26T16.tar"
+  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_04-29-26T15.tar"
   ,
-  "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_04-13-26T18.tar"
+  "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_04-29-26T15.tar"
   ,
   "infrastructure_git_hash" : "main"
 }
