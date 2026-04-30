@@ -26,7 +26,7 @@
     },{
       "project_name": "PIC-SURE Logging",
       "project_job_git_key":"PSL",
-      "git_hash": "main"
+      "git_hash": "v1.0.3"
     }
   ],
   "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_04-29-26T14.tar"
