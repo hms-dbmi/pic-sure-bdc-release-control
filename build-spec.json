@@ -27,6 +27,10 @@
       "project_name": "PIC-SURE Logging",
       "project_job_git_key":"PSL",
       "git_hash": "v1.0.3"
+    },{
+      "project_name": "PIC-SURE Visualization",
+      "project_job_git_key":"PSV",
+      "git_hash": "rewrite"
     }
   ],
   "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_05-18-26T12.tar"
@@ -39,5 +43,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_05-18-26T12.tar"
   ,
-  "infrastructure_git_hash" : "v6.5.0"
+  "infrastructure_git_hash" : "add-visualization-deploy"
 }
