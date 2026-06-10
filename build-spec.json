@@ -18,7 +18,7 @@
     },{
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
-      "git_hash": "v1.8.3" 
+      "git_hash": "ALS-11493-set-weight-refactor" 
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
