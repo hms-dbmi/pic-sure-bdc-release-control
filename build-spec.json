@@ -6,11 +6,11 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "ALS-10714-obf-in-api"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "ALS-11895-merge-duplicate-cross-count-filters"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
@@ -30,7 +30,7 @@
     },{
       "project_name": "PIC-SURE Visualization",
       "project_job_git_key":"PSV",
-      "git_hash": "ALS-10714-obf-in-api"
+      "git_hash": "main"
     }
   ],
   "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_06-09-26T03.tar"
