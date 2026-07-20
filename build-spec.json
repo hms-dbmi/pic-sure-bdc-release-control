@@ -6,31 +6,31 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "v2.27.2"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
-      "git_hash": "v4.13.2"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "96d4855d579c6e388f507f378b6bb1b12c1358a4"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE Dictionary Build",
       "project_job_git_key":"PSD",
-      "git_hash": "v1.9.0"
+      "git_hash": "main" 
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "7b6cecd209c0b8ab3d0c0708c5d48cbec27edc60"
+      "git_hash": "v3.1.5"
     },{
       "project_name": "PIC-SURE Logging",
       "project_job_git_key":"PSL",
-      "git_hash": "v1.0.3"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE Visualization",
       "project_job_git_key":"PSV",
-      "git_hash": "v1.1.0"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE Commons",
       "project_job_git_key":"PSC",
