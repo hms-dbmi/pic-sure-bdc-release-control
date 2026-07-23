@@ -30,7 +30,7 @@
     },{
       "project_name": "PIC-SURE Visualization",
       "project_job_git_key":"PSV",
-      "git_hash": "main"
+      "git_hash": "v2.0.0"
     },{
       "project_name": "PIC-SURE Commons",
       "project_job_git_key":"PSC",
