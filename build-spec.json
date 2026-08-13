@@ -6,46 +6,22 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "v3.0.0"
-    },{
-      "project_name": "PIC-SURE-HPDS Build",
-      "project_job_git_key":"PSH",
-      "git_hash": "v5.0.0"
-    },{
-      "project_name": "PIC-SURE Auth Micro-App Build",
-      "project_job_git_key":"PSAMA",
-      "git_hash": "v5.0.0"
-    },{
-      "project_name": "PIC-SURE Dictionary Build",
-      "project_job_git_key":"PSD",
-      "git_hash": "v2.0.0" 
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "v3.1.6"
-    },{
-      "project_name": "PIC-SURE Logging",
-      "project_job_git_key":"PSL",
-      "git_hash": "v1.0.4"
-    },{
-      "project_name": "PIC-SURE Visualization",
-      "project_job_git_key":"PSV",
-      "git_hash": "v2.0.0"
-    },{
-      "project_name": "PIC-SURE Commons",
-      "project_job_git_key":"PSC",
-      "git_hash": "v1.0.0"
+      "git_hash": "main"
     }
   ],
-  "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_08-06-26T02.tar"
+  "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_08-12-26T04.tar"   
   , 
-  "source_destigmatized_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_08-06-26T02.tar"
+  "source_destigmatized_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_08-12-26T04.tar"   
   ,
-  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/releases/2026-08-06/"
+  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/releases/2026-08-05/"   
   ,
-  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_07-22-26T15.tar"
+  "source_dictionary_s3_object_key" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_08-07-26T15.tar"   
   ,
-  "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_07-22-26T15.tar"
+  "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_08-07-26T15.tar"   
   ,
-  "infrastructure_git_hash" : "v6.6.2"
+  "infrastructure_git_hash" : "pic_sure_api_rewrite"
 }
