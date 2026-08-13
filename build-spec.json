@@ -23,5 +23,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_08-07-26T15.tar"   
   ,
-  "infrastructure_git_hash" : "ALS-10150-BDC-SNI-FIX-MONOREPO"
+  "infrastructure_git_hash" : "pic_sure_api_rewrite"
 }
