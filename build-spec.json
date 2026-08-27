@@ -6,7 +6,7 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "main"
+      "git_hash": "ALS-11771"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
@@ -23,5 +23,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_08-07-26T15.tar"   
   ,
-  "infrastructure_git_hash" : "pic_sure_api_rewrite"
+  "infrastructure_git_hash" : "ALS-11771"
 }
