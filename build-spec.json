@@ -53,7 +53,7 @@
       },
       "jenkins": {
         "repository": "https://github.com/hms-dbmi/avillachlab-jenkins.git",
-        "commit": "3ac32c4481f66158374e7100fd0eb60e902b0d1f"
+        "commit": "29ec9a69c23aa663ff2496d58982c1ad329c3234"
       }
     },
     "contractSource": {
@@ -92,6 +92,6 @@
       "targetedFeedRollbackBoundary": "DISABLE_ACTIVE_AND_SCHEDULED_TARGETED_BANNERS_BEFORE_LEGACY_ACTIVE_FEED_BACKEND",
       "managementWriteFreezeBoundary": "KEEP_BANNER_MANAGEMENT_WRITES_FROZEN_BELOW_TARGETING_CAPABLE_BACKEND"
     },
-    "tupleSha256": "1dbce8877731e92f4c4f6b0feec8eb55361a3946f87dc49f214ed938f7214338"
+    "tupleSha256": "561c67ba394188ab4a95d5bce0b487e7ab15ed7128685df3827fce290b52a37f"
   }
 }
