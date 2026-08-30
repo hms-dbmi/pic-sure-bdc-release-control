@@ -6,11 +6,11 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "main"
+      "git_hash": "0178bbd2d1753e07dcead77a6d0e8ca37bf76dd8"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "main"
+      "git_hash": "7b69aa960ff98f97c1a2d026b7137b0e3dcdf603"
     }
   ],
   "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_08-12-26T04.tar"   
@@ -23,5 +23,72 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_08-07-26T15.tar"   
   ,
-  "infrastructure_git_hash" : "pic_sure_api_rewrite"
+  "infrastructure_git_hash" : "5d2ba9f59f161ace5e807c82a0580518a9d44d16",
+  "banner_rollout": {
+    "schemaVersion": 3,
+    "deployment": "BDC",
+    "requiredServices": ["PSAMA", "OPERATIONS", "GATEWAY"],
+    "releaseControl": {
+      "repository": "https://github.com/hms-dbmi/pic-sure-bdc-release-control.git",
+      "ref": "als-12831/t21-fisma-rollout-order",
+      "resolvedCommitSource": "JENKINS_CHECKED_OUT_GIT_COMMIT"
+    },
+    "components": {
+      "backend": {
+        "repository": "https://github.com/hms-dbmi/pic-sure.git",
+        "commit": "0178bbd2d1753e07dcead77a6d0e8ca37bf76dd8"
+      },
+      "frontend": {
+        "repository": "https://github.com/hms-dbmi/PIC-SURE-Frontend.git",
+        "commit": "7b69aa960ff98f97c1a2d026b7137b0e3dcdf603"
+      },
+      "infrastructure": {
+        "repository": "https://github.com/hms-dbmi/pic-sure-bdc-infrastructure.git",
+        "ref": "pic_sure_api_rewrite",
+        "commit": "5d2ba9f59f161ace5e807c82a0580518a9d44d16"
+      },
+      "migrationsParity": {
+        "repository": "https://github.com/hms-dbmi/PIC-SURE-Migrations.git",
+        "commit": "05b1a77512dc0921570f0d442853fdcee75b8131"
+      },
+      "jenkins": {
+        "repository": "https://github.com/hms-dbmi/avillachlab-jenkins.git",
+        "commit": "9af6bc0d46ccaa0c42fb1e1fc83e471343bf2c78"
+      }
+    },
+    "contract": {
+      "source": {
+        "repository": "https://github.com/hms-dbmi/pic-sure.git",
+        "commit": "0178bbd2d1753e07dcead77a6d0e8ca37bf76dd8",
+        "path": ".github/banner-rollout-contract.json",
+        "sha256": "f8cb265d735b757872391e04fdcd5b999b785eaa427ca13f8f2eefd493715359"
+      },
+      "deploymentWideCacheRefresh": "PSAMA_PROCESS_RESTART",
+      "forwardPhases": [
+        "APPLY_AUTHORIZATION_AND_PIC_SURE_MIGRATIONS",
+        "RECREATE_PSAMA",
+        "VERIFY_OPERATIONS_AND_GATEWAY_HEALTH",
+        "PUBLISH_FRONTEND_ACTIVE_V2"
+      ],
+      "rollbackPhases": [
+        "FREEZE_BANNER_MANAGEMENT_WRITES",
+        "ROLL_BACK_FRONTEND",
+        "DISABLE_ACTIVE_AND_SCHEDULED_TARGETED_BANNERS_BEFORE_LEGACY_ACTIVE_FEED_BACKEND",
+        "ROLL_BACK_OPERATIONS_AND_GATEWAY",
+        "KEEP_BANNER_MANAGEMENT_WRITES_FROZEN_BELOW_TARGETING_CAPABLE_BACKEND",
+        "RECREATE_PSAMA"
+      ],
+      "rollbackStateContract": {
+        "freezeRequiredBeforeFrontendRollback": true,
+        "ordinaryManagementWritesAllowedWhileFrozen": false,
+        "targetedDisableAllowedWhileFrozen": true,
+        "legacyBackendTransitionRequiresTargetedClear": true,
+        "freezeRetainedBelowTargetingBackend": true,
+        "frontendFirstRollbackAloneSafe": false,
+        "schemaRollback": "KEEP_FORWARD_SCHEMA",
+        "downMigrationAllowed": false
+      }
+    },
+    "tupleSha256": "e62b9d8a5be23d050939bd744d522b5e20d1ccf6bdb0a9e248a6e121dbff5449"
+  }
 }
