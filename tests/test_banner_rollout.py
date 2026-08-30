@@ -8,6 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 JENKINS_ROOT = Path(os.environ["JENKINS_ROOT"])
+INFRASTRUCTURE_ROOT = Path(os.environ["BDC_INFRASTRUCTURE_ROOT"])
 VALIDATOR = JENKINS_ROOT / "jenkins-docker/scripts/validate-banner-rollout.py"
 
 
@@ -93,6 +94,37 @@ class BdcReleaseTupleTest(unittest.TestCase):
             "JENKINS_CHECKED_OUT_GIT_COMMIT",
             spec["banner_rollout"]["releaseControl"]["resolvedCommitSource"],
         )
+
+    def test_tuple_pins_the_logging_capable_executable_infrastructure(self):
+        spec = json.loads((ROOT / "build-spec.json").read_text(encoding="utf-8"))
+        logging_commit = "d10cecdeb89f14f8c672a81347ffa70d9b001ab3"
+        self.assertEqual(logging_commit, spec["infrastructure_git_hash"])
+        self.assertEqual(
+            logging_commit,
+            spec["banner_rollout"]["components"]["infrastructure"]["commit"],
+        )
+        template = subprocess.run(
+            [
+                "git",
+                "show",
+                f"{spec['infrastructure_git_hash']}:app-infrastructure/template-renderer/templates/operations.env.tftpl",
+            ],
+            cwd=INFRASTRUCTURE_ROOT,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        self.assertEqual(0, template.returncode, template.stderr)
+        self.assertIn("LOGGING_SERVICE_URL=http://pic-sure-logging", template.stdout)
+        self.assertIn("LOGGING_API_KEY=${logging_api_key}", template.stdout)
+        jenkins_commit = subprocess.run(
+            ["git", "rev-parse", "HEAD"],
+            cwd=JENKINS_ROOT,
+            text=True,
+            capture_output=True,
+            check=True,
+        ).stdout.strip()
+        self.assertEqual(jenkins_commit, spec["banner_rollout"]["components"]["jenkins"]["commit"])
 
     def test_contract_matches_bundled_authoritative_bytes(self):
         backend_root = Path(os.environ["BACKEND_ROOT"])

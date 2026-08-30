@@ -23,7 +23,7 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_08-07-26T15.tar"   
   ,
-  "infrastructure_git_hash" : "c18c56a4aeaf7b75a1f4feb4bc19c5c09a29c7c1",
+  "infrastructure_git_hash" : "d10cecdeb89f14f8c672a81347ffa70d9b001ab3",
   "banner_rollout": {
     "schemaVersion": 3,
     "deployment": "BDC",
@@ -45,7 +45,7 @@
       "infrastructure": {
         "repository": "https://github.com/hms-dbmi/pic-sure-bdc-infrastructure.git",
         "ref": "pic_sure_api_rewrite",
-        "commit": "c18c56a4aeaf7b75a1f4feb4bc19c5c09a29c7c1"
+        "commit": "d10cecdeb89f14f8c672a81347ffa70d9b001ab3"
       },
       "migrationsParity": {
         "repository": "https://github.com/hms-dbmi/PIC-SURE-Migrations.git",
@@ -53,7 +53,7 @@
       },
       "jenkins": {
         "repository": "https://github.com/hms-dbmi/avillachlab-jenkins.git",
-        "commit": "29ec9a69c23aa663ff2496d58982c1ad329c3234"
+        "commit": "6e72d8daefa5e4a902d5250162f56e7e1bbdb40c"
       }
     },
     "contractSource": {
@@ -92,6 +92,6 @@
       "targetedFeedRollbackBoundary": "DISABLE_ACTIVE_AND_SCHEDULED_TARGETED_BANNERS_BEFORE_LEGACY_ACTIVE_FEED_BACKEND",
       "managementWriteFreezeBoundary": "KEEP_BANNER_MANAGEMENT_WRITES_FROZEN_BELOW_TARGETING_CAPABLE_BACKEND"
     },
-    "tupleSha256": "561c67ba394188ab4a95d5bce0b487e7ab15ed7128685df3827fce290b52a37f"
+    "tupleSha256": "9e5bdf8be795bc389b829c7b6e05f9f834a9f64d41010f497190cb2907f04a1c"
   }
 }
