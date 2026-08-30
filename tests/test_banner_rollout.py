@@ -36,6 +36,16 @@ class BdcReleaseTupleTest(unittest.TestCase):
                     capture_output=True,
                     check=True,
                 ).stdout.strip(),
+                "--release-control-commit",
+                subprocess.run(
+                    ["git", "rev-parse", "HEAD"],
+                    cwd=ROOT,
+                    text=True,
+                    capture_output=True,
+                    check=True,
+                ).stdout.strip(),
+                "--controller-deployment",
+                "bdc",
                 "--run-database-migrations",
                 selections["run_database_migrations"],
                 "--include-api",
@@ -55,7 +65,7 @@ class BdcReleaseTupleTest(unittest.TestCase):
         result = self.validate()
         self.assertEqual(0, result.returncode, result.stdout + result.stderr)
         self.assertEqual(
-            "843eaedac391117a40f67f1e631681e7cbc1d4d58f04503a16ad03fe8d5f3b6a",
+            json.loads((ROOT / "build-spec.json").read_text(encoding="utf-8"))["banner_rollout"]["tupleSha256"],
             result.stdout.strip(),
         )
 
