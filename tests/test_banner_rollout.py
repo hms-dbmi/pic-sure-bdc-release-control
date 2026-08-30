@@ -7,9 +7,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-JENKINS_ROOT = Path(
-    os.environ.get("JENKINS_ROOT", ROOT.parent / "avillachlab-jenkins")
-)
+JENKINS_ROOT = Path(os.environ["JENKINS_ROOT"])
 VALIDATOR = JENKINS_ROOT / "jenkins-docker/scripts/validate-banner-rollout.py"
 
 
@@ -30,6 +28,14 @@ class BdcReleaseTupleTest(unittest.TestCase):
                 "BDC",
                 "--build-spec",
                 str(ROOT / "build-spec.json"),
+                "--jenkins-source-commit",
+                subprocess.run(
+                    ["git", "rev-parse", "HEAD"],
+                    cwd=JENKINS_ROOT,
+                    text=True,
+                    capture_output=True,
+                    check=True,
+                ).stdout.strip(),
                 "--run-database-migrations",
                 selections["run_database_migrations"],
                 "--include-api",
@@ -49,7 +55,7 @@ class BdcReleaseTupleTest(unittest.TestCase):
         result = self.validate()
         self.assertEqual(0, result.returncode, result.stdout + result.stderr)
         self.assertEqual(
-            "e62b9d8a5be23d050939bd744d522b5e20d1ccf6bdb0a9e248a6e121dbff5449",
+            "843eaedac391117a40f67f1e631681e7cbc1d4d58f04503a16ad03fe8d5f3b6a",
             result.stdout.strip(),
         )
 
@@ -72,6 +78,17 @@ class BdcReleaseTupleTest(unittest.TestCase):
         self.assertEqual(
             "JENKINS_CHECKED_OUT_GIT_COMMIT",
             spec["banner_rollout"]["releaseControl"]["resolvedCommitSource"],
+        )
+
+    def test_contract_matches_bundled_authoritative_bytes(self):
+        backend_root = Path(os.environ["BACKEND_ROOT"])
+        authoritative = backend_root / ".github/banner-rollout-contract.json"
+        bundled = JENKINS_ROOT / "jenkins-docker/scripts/banner-rollout-contract.json"
+        self.assertEqual(authoritative.read_bytes(), bundled.read_bytes())
+        spec = json.loads((ROOT / "build-spec.json").read_text(encoding="utf-8"))
+        self.assertEqual(
+            json.loads(authoritative.read_text(encoding="utf-8")),
+            spec["banner_rollout"]["contract"],
         )
 
 
