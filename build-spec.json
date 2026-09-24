@@ -6,14 +6,14 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "feature-harmonization"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
       "git_hash": "main"
     }
   ],
-  "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/partitioned-data.tar"   
+  "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_09-18-26T23.tar"   
   , 
   "source_destigmatized_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_09-18-26T23.tar"   
   ,
