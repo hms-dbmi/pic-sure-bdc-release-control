@@ -6,11 +6,11 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "main"
+      "git_hash": "ALS-12644-open-session-tokens"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "main"
+      "git_hash": "ALS-13236"
     }
   ],
   "source_dataset_s3_url" : "s3://bdc-etl-data-d0d6191/data/hpds/pheno/final/biodatacatalyst_javabins_data_analyzer_10-07-26T05.tar"   
@@ -23,5 +23,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://avillach-73-bdcatalyst-etl/general/hpds/javabin/dictionary_db_10-07-26T14.tar"   
   ,
-  "infrastructure_git_hash" : "main"
+  "infrastructure_git_hash" : "ALS-12357-api-key-table"
 }
