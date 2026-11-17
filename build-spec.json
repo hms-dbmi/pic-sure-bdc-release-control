@@ -13,13 +13,13 @@
       "git_hash": "v4.1.0"
     }
   ],
-  "source_dataset_s3_url": "s3://bdc-etl-data-d0d6191/data/hpds/pheno/datasets/2026-11-09T1917Z/"
+  "source_dataset_s3_url": "s3://bdc-etl-data-d0d6191/data/hpds/pheno-partitioned/datasets/2026-11-17T0221Z/"
   ,
-  "source_destigmatized_dataset_s3_url": "s3://bdc-etl-data-d0d6191/data/hpds/pheno/datasets/2026-11-09T1917Z/"  
+  "source_destigmatized_dataset_s3_url": "s3://bdc-etl-data-d0d6191/data/hpds/pheno-partitioned/datasets/2026-11-17T0221Z/"  
   ,
   "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/releases/2026-11-03/"   
   ,
-  "source_dictionary_db_s3_url" : "s3://bdc-etl-data-d0d6191/data/dictionary/db-dumps/dictionary_db_11-08-26T14.tar"   
+  "source_dictionary_db_s3_url" : "s3://bdc-etl-data-d0d6191/data/dictionary/db-dumps/pre-restore/dictionary_db_pre-restore_11-16-26T233237.tar"   
   ,
-  "infrastructure_git_hash" : "v7.8.0"
+  "infrastructure_git_hash" : "hpds-partitioned-hosts"
 }
