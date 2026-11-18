@@ -6,11 +6,11 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "pfb-envelope-schema"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
-      "git_hash": "v4.1.0"
+      "git_hash": "main"
     }
   ],
   "source_dataset_s3_url": "s3://bdc-etl-data-d0d6191/data/hpds/pheno/datasets/2026-11-09T1917Z/"
@@ -21,5 +21,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://bdc-etl-data-d0d6191/data/dictionary/db-dumps/dictionary_db_11-08-26T14.tar"   
   ,
-  "infrastructure_git_hash" : "v7.8.0"
+  "infrastructure_git_hash" : "main"
 }
