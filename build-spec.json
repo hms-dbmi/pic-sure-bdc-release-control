@@ -6,20 +6,20 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "fh-openssl-bump"
+      "git_hash": "main"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
       "git_hash": "main"
     }
   ],
-  "source_dataset_s3_url": "s3://bdc-etl-data-d0d6191/data/hpds/pheno-partitioned/datasets/2026-11-19T1746Z/"
+  "source_dataset_s3_url": "s3://bdc-etl-data-d0d6191/data/hpds/pheno/datasets/2026-11-09T1917Z/"
   ,
-  "source_destigmatized_dataset_s3_url": "s3://bdc-etl-data-d0d6191/data/hpds/pheno-partitioned/datasets/2026-11-19T1746Z/"
+  "source_destigmatized_dataset_s3_url": "s3://bdc-etl-data-d0d6191/data/hpds/pheno/datasets/2026-11-09T1917Z/"  
   ,
-  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/releases/2026-11-03/"
+  "source_genomic_dataset_s3_url" :  "s3://avillach-73-bdcatalyst-etl/general/hpds/genomics_javabins/9b/v4.1/releases/2026-11-03/"   
   ,
-  "source_dictionary_db_s3_url" : "s3://bdc-etl-data-d0d6191/data/dictionary/db-dumps/dictionary_db_11-08-26T14.tar"
+  "source_dictionary_db_s3_url" : "s3://bdc-etl-data-d0d6191/data/dictionary/db-dumps/dictionary_db_11-08-26T14.tar"   
   ,
-  "infrastructure_git_hash" : "36a33c7d046fb95d8b306088e14eaf3dfeaa0861"
+  "infrastructure_git_hash" : "main"
 }
