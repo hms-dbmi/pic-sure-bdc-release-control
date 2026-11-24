@@ -21,5 +21,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://bdc-etl-data-d0d6191/data/dictionary/db-dumps/dictionary_db_11-08-26T14.tar"   
   ,
-  "infrastructure_git_hash" : "ALS-11771-test-profiles-partitioned-hosts"
+  "infrastructure_git_hash" : "george-test-hotfix"
 }
