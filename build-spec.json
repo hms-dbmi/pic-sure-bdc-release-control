@@ -6,7 +6,7 @@
      {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "fh-openssl-bump"
+      "git_hash": "ALS-11771-test-profiles"
     },{
       "project_name": "PIC-SURE-FRONTEND Build",
       "project_job_git_key":"PSF",
@@ -21,5 +21,5 @@
   ,
   "source_dictionary_db_s3_url" : "s3://bdc-etl-data-d0d6191/data/dictionary/db-dumps/dictionary_db_11-08-26T14.tar"   
   ,
-  "infrastructure_git_hash" : "36a33c7d046fb95d8b306088e14eaf3dfeaa0861"
+  "infrastructure_git_hash" : "ALS-11771-test-profiles-partitioned-hosts"
 }
